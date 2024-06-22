@@ -1,0 +1,10 @@
+*{          /*universal selector*/
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;     /*borderbox makes padding or size count in height or width*/
+}
+
+.navbar{
+    height:60px;
+    background-color: #0F1111;
+}
