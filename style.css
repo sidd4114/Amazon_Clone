@@ -1,10 +1,38 @@
-*{          /*universal selector*/
+*{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    border:border-box;     /*borderbox makes padding or size count in height or width*/
+    border: border-box;
 }
-
 .navbar{
     height:60px;
     background-color: #0F1111;
+    color:white;
+    display:flex;
+    
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image:url("./images/amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+    
+}
+.border:hover{
+    border:1.5px solid white;
+}
+
+#deliver-to{
+    color:#CCCCCC;
+    font-size: 12px;
+}
+
+#location{
+    color:#FFFFFF;
+    font-size:14px;
 }
