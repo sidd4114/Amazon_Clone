@@ -1,6 +1,6 @@
 *{
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;     
     border: border-box;
 }
 .navbar{
@@ -8,9 +8,11 @@
     background-color: #0F1111;
     color:white;
     display:flex;
-    
+    align-items:center;   /*centering along vertical axis*/
+    justify-content: space-evenly;
 }
 
+/*box1*/
 .nav-logo{
     height:50px;
     width:100px;
@@ -26,13 +28,153 @@
 .border:hover{
     border:1.5px solid white;
 }
-
+/*box 2*/
 #deliver-to{
     color:#CCCCCC;
     font-size: 12px;
+    margin-left:10px;
 }
 
 #location{
     color:#FFFFFF;
     font-size:14px;
+}
+.add-icon{
+    display:flex;    /*to make icon and india in same line*/
+    align-items:center;  /*to center along vertical axis*/
+}
+
+
+#location{
+    margin-left: 3px;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space space-evenly;
+    background-color: orange;
+    height:40px;
+    width:620px;
+    border-radius:6px;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+    background-color:#FFFFFF;
+    width:50px;
+    text-align: center;      /*to align all horizontally at centre*/
+    border:none;   /*to remove visible border*/
+}
+.search-input{
+    width: 100%;  /*occupis all khali area in flex container*/
+    font-size: 1rem;   /*rem helps in creating dynamic/responsive website*/
+    border:none;
+    background-color: white;
+    
+}
+/*magnifying glass*/
+.search-icon{
+    width:45px;
+    display:flex;
+    align-items: center; /*to center along vertical axis*/
+    justify-content: center;
+    font-size:1.2rem;
+    
+    
+}
+#icon{
+    color: black;
+}
+/*camera_lens*/
+#camera_lens{
+    color:black;
+    width:45px;
+    display: flex;
+    align-items: center; /*to center along vertical axis*/
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+/*box 5 and 6*/
+#welcoming{
+    font-size: 0.7rem;
+    color:#FFFFFF;
+}
+
+#nav-sec{
+    font-size: 0.85rem;
+    color:#FFFFFF;
+    font-weight: 700;
+}
+#cart-icon{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+#cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 1.5px;
+    margin-top: 10px;
+}
+
+.panel{
+    background-color: #232F3E;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font
+}
+
+.panel-All{
+    color: #FFFFFF;
+    width:60px;
+    font-size:0.95rem;
+}
+
+.panel-options{
+    color: #FFFFFF;
+    width:90%;
+    font-size: 0.95rem;
+      
+}
+
+.panel-options a{    /*anchor tags of panel*/
+    display: inline;
+    margin-right: 15px;
+}
+.hero-section{
+    background-image: url("./images/shop w alexa.jpg"); /*img wont be seen unless you set height or width*/
+    height:400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+   
+    
+    
+    
+}
+.hero-msg{
+    background-color: white;
+    color: #0F1111;
+    font-weight: 550;
+    font-size: 0.85rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
 }
