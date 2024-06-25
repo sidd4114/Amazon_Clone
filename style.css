@@ -178,3 +178,58 @@
 .hero-msg a{
     color: #007185;
 }
+
+/*shop-section*/
+.box{
+    height:420px;
+    width:335px;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shop-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.pc_image{
+    background-image: url("./images/pcimg.jpg");
+    background-size: cover;
+    height: 275px;
+    
+}
+.box_content{
+    margin-left: 15px;
+    margin-right:15px;
+}
+
+.heading{
+    margin-top: 1.7rem;
+    margin-bottom: 1.3rem;
+}
+.footer_box{
+    margin-top: 2rem;
+    color:#007185;
+    margin-bottom:10px;
+    font-size: 0.9rem;
+    
+}
+
+.image_type1{
+    background-size: cover;
+    height:275px;
+}
+
+.image_typev{
+    background-size: cover;
+    height:250px;
+}
