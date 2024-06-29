@@ -207,20 +207,37 @@
     height: 275px;
     
 }
+.bus_sol{
+    background-image: url("./images/creating.jpg");
+    background-size: cover;
+    height:260px;
+}
+.under699{
+    background-image: url('./images/under99.jpg');
+    background-size: cover;
+    height:235px;
+}
+
+
 .box_content{
     margin-left: 15px;
     margin-right:15px;
+    
+    
 }
+
 
 .heading{
     margin-top: 1.7rem;
     margin-bottom: 1.3rem;
 }
 .footer_box{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     color:#007185;
-    margin-bottom:10px;
+    margin-bottom:15px;
     font-size: 0.9rem;
+   
+    
     
 }
 
@@ -321,5 +338,15 @@ ul{
     width:1100px;
     justify-content: space-evenly;
 }
+.plantsimg{
+    background-image: url("./images/plants.jpg");
+    height:250px;
+}
+.watches{
+    background-image: url("./images/watches.jpg");
+    background-size: cover;
+    height: 260px;
+}
+
 
 
