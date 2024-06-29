@@ -302,7 +302,7 @@
    
     font-size: 16px;
     color: white;
-    font-weight: 800;
+    font-weight: 750;
     margin-bottom: 0.1rem;
 }
 .foot_panel2{
@@ -328,7 +328,7 @@
 }
 ul{
     margin-top: 50px;
-    margin-bottom: 50px; 
+    margin-bottom: 20px; 
     
 }
 .ul_arr{
@@ -348,5 +348,47 @@ ul{
     height: 260px;
 }
 
+.foot_panel3{
+    background-color: #232F3E;
+    height: 70px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
+#amznlogo{
+    background-image: url("./images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width:80px
+}
+.foot_panel4{
+    background-color: #131a22;
+    height:80px;
+    color:#DDDDDD;
+    font-size: 12px;
+    
+    text-align: center;
+    
+    
+}
+.condin{    
+    padding-top:1.75rem;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+.condin a{
+    margin-left: 10px;
+
+}
+
+
+.copyright{
+    margin-top: 3px;
+   
+}
