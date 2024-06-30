@@ -1,0 +1,1 @@
+I'm excited to share a project where I replicated the homepage of Amazon.in using HTML and CSS. This endeavor was aimed at enhancing my skills in front-end development, focusing solely on HTML and CSS to create a responsive and visually appealing web page.
