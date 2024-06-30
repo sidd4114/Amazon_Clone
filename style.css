@@ -408,5 +408,18 @@ ul{
 }
 .shop-section3{
     background-color: #E2E7E6;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    align-items: center;
+}
+.prime{
+    background-image: url("./images/prime.jpg");
+    background-size: cover;
+    height:260px;
+}
+.Beauty{
+    background-size: cover;
+    height:275px;
 }
